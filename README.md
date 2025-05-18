@@ -1,46 +1,32 @@
-# 🧭 Veritas.AI
+# 🧠 Veritas.AI | Sistema Inteligente de Verificação de Fatos com Gemini
 
-Um verificador de fatos automatizado baseado em agentes de IA com Google Gemini.  
-Você pergunta se algo é verdade — ele responde com evidências, parecer técnico e explicação popular.
+**Veritas.AI** é um sistema de verificação de fatos baseado em arquitetura multiagente com Google Gemini.  
+Ele analisa afirmações complexas — como "vacinas de mRNA alteram o DNA" ou "o 5G facilita vigilância em massa" — e retorna uma resposta embasada, clara e atualizada, com links para fontes confiáveis.
 
----
+## ⚙️ Como funciona
 
-## ⚙️ O que é?
+1. O usuário insere uma pergunta ou afirmação polêmica
+2. O agente de busca coleta evidências atuais e confiáveis (via Google Search)
+3. O agente verificador analisa os dados à luz do consenso científico
+4. A resposta final é entregue com clareza e responsabilidade
 
-**Veritas.AI** é um sistema multiagente que transforma desinformação em clareza.  
-Basta digitar uma pergunta do tipo:
+## 🚀 Tecnologias utilizadas
 
-> ❓ "Vacinas causam autismo?"  
-> ❓ "A Terra é plana?"  
-> ❓ "5G causa câncer?"  
+- [x] Google Gemini + Google ADK (Agentes Inteligentes)
+- [x] Python (Google Colab)
+- [x] Arquitetura multiagente (modular e escalável)
 
-O sistema ativa 3 agentes autônomos:
+## 🧩 Aplicações práticas
 
-1. 🕵️ **Agente Coletor de Evidências**  
-   Busca fontes confiáveis: artigos científicos, veículos jornalísticos, checadores de fatos.
+- Combate a fake news com foco em saúde, política, tecnologia e ciência
+- Ferramenta de apoio para educadores, jornalistas e moderadores de conteúdo
+- Plataforma de checagem automatizada para iniciativas de integridade digital
 
-2. ⚖️ **Agente Avaliador de Veracidade**  
-   Analisa as evidências e classifica: **VERDADEIRO**, **FALSO**, **IMPRECISO**, ou **NÃO CONCLUSIVO**.
+## 📌 Sobre o projeto
 
-3. 🧠 **Agente Explicador Popular**  
-   Traduz o parecer técnico para linguagem clara e didática. Ideal para leigos, familiares ou grupos de WhatsApp.
+Este projeto foi desenvolvido por **Bruno Battestin** durante a **Imersão IA da Alura** com o objetivo de aplicar IA generativa para promover pensamento crítico, segurança informacional e responsabilidade digital.
 
----
-
-## 📌 Por que usar?
-
-- 🔍 Verificação baseada em múltiplas fontes confiáveis
-- 🧠 Explicações acessíveis e livres de jargões
-- 🤖 Automatizado e transparente com uso de Google Gemini
-- 🧰 Pronto para ser estendido com mais agentes (ex: viés, contexto histórico, polarização)
+- 🔗 [LinkedIn - Bruno Battestin](https://www.linkedin.com/in/brunobattestin/)
+- 📬 eng.bruno.battestin@gmail.com
 
 ---
-
-## 🚀 Requisitos
-
-- Google Colab ou ambiente Python
-- Conta com acesso à [Google Gemini API](https://ai.google.dev/)
-- Biblioteca `google-adk` instalada:
-
-```bash
-pip install -q google-adk
